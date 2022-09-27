@@ -773,8 +773,8 @@ ul {
 }
 
 .mail-btn {
-  width: 200px;
-  height: 50px;
+  /*width: 200px;
+  height: 50px;*/
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -788,10 +788,13 @@ ul {
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 215px;
+  padding-right: 10px;
   background: var(--logo-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   gap: 10px;
+
 }
 
 .mail-btn-icons {
@@ -930,7 +933,7 @@ ul {
   letter-spacing: 0.01em;
   color: var(--main-txt-сl);
 }
-textarea[placeholder='Введите текст'] {
+textarea[placeholder='Введіть текст'] {
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
@@ -966,7 +969,7 @@ textarea[placeholder='Введите текст'] {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--icon-text);
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 .form-field > .checkbox {
   padding-left: 12px;
@@ -978,6 +981,11 @@ textarea[placeholder='Введите текст'] {
   appearance: none;
   position: absolute;
 }
+
+.container-checkbox{
+  margin-top: 20px;
+}
+
 .chekbox-item {
   background-origin: border-box;
   border: 2px solid var(--icon-text);
