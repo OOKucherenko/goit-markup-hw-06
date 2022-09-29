@@ -11,7 +11,7 @@
   --main-color: #2f303a;
   --button-color: #f5f4fa;
   --container-color: #eeeeee;
-  --button-modal:#188CE8;
+  --button-modal: #188ce8;
   /*Text colors*/
   --main-txt-сl: #000000;
   --logo-text: #2196f3;
@@ -784,21 +784,23 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-text);
-  border-color: transparent;
+  /* border-color: transparent; */
   cursor: pointer;
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 215px;
-  padding-right: 10px;
+  padding-right: 10px; */
+  padding: 10px 28px;
   background: var(--logo-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  gap: 10px;
-
+  /* gap: 10px; */
+  border: none;
 }
 
 .mail-btn-icons {
   fill: currentColor;
+  margin-left: 10px;
 }
 
 .backdrop {
@@ -846,11 +848,10 @@ ul {
 
   outline: none;
 }
- 
+
 .modal-container {
   padding: 40px;
 }
- 
 
 .modal-close:hover,
 .modal-close:focus {
@@ -982,7 +983,7 @@ textarea[placeholder='Введіть текст'] {
   position: absolute;
 }
 
-.container-checkbox{
+.container-checkbox {
   margin-top: 20px;
 }
 
